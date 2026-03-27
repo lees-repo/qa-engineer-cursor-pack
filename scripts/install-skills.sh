@@ -6,7 +6,7 @@ set -e
 SKILL_DIR=".cursor/skills/qa-test-agent"
 SKILL_FILE="SKILL.md"
 
-REPO="${QA_ENGINEER_REPO:-https://github.com/YOUR_ORG/qa-engineer-cursor-pack}"
+REPO="${QA_ENGINEER_REPO:-https://github.com/lees-repo/qa-engineer-cursor-pack}"
 BRANCH="${QA_ENGINEER_BRANCH:-main}"
 GITHUB_HOST="https://github.com"
 RAW_HOST="https://raw.githubusercontent.com"

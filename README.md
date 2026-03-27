@@ -18,22 +18,22 @@ A **Cursor**-oriented pack for **QA engineers**: **one context doc first**, **no
 
 ## Quick install (one-liner)
 
-From your **project root** (replace `YOUR_ORG` / repo name after you fork or publish):
+From your **project root**:
 
 ```bash
-mkdir -p .cursor/rules && curl -sSL -o .cursor/rules/qa-engineer.mdc https://raw.githubusercontent.com/YOUR_ORG/qa-engineer-cursor-pack/main/rules/qa-engineer.mdc
+mkdir -p .cursor/rules && curl -sSL -o .cursor/rules/qa-engineer.mdc https://raw.githubusercontent.com/lees-repo/qa-engineer-cursor-pack/main/rules/qa-engineer.mdc
 ```
 
 Optional — add the skill:
 
 ```bash
-mkdir -p .cursor/skills/qa-test-agent && curl -sSL -o .cursor/skills/qa-test-agent/SKILL.md https://raw.githubusercontent.com/YOUR_ORG/qa-engineer-cursor-pack/main/skills/qa-test-agent/SKILL.md
+mkdir -p .cursor/skills/qa-test-agent && curl -sSL -o .cursor/skills/qa-test-agent/SKILL.md https://raw.githubusercontent.com/lees-repo/qa-engineer-cursor-pack/main/skills/qa-test-agent/SKILL.md
 ```
 
 Copy the context template into your project (once):
 
 ```bash
-curl -sSL -o QA-TEST-CONTEXT.md https://raw.githubusercontent.com/YOUR_ORG/qa-engineer-cursor-pack/main/templates/QA-TEST-CONTEXT.md
+curl -sSL -o QA-TEST-CONTEXT.md https://raw.githubusercontent.com/lees-repo/qa-engineer-cursor-pack/main/templates/QA-TEST-CONTEXT.md
 ```
 
 ### Install scripts (if you cloned this repo)
@@ -41,8 +41,8 @@ curl -sSL -o QA-TEST-CONTEXT.md https://raw.githubusercontent.com/YOUR_ORG/qa-en
 From your **project root**, with the pack at `./qa-engineer-cursor-pack`:
 
 ```bash
-QA_ENGINEER_REPO=https://github.com/YOUR_ORG/qa-engineer-cursor-pack ./qa-engineer-cursor-pack/scripts/install-rules.sh
-QA_ENGINEER_REPO=https://github.com/YOUR_ORG/qa-engineer-cursor-pack ./qa-engineer-cursor-pack/scripts/install-skills.sh
+QA_ENGINEER_REPO=https://github.com/lees-repo/qa-engineer-cursor-pack ./qa-engineer-cursor-pack/scripts/install-rules.sh
+QA_ENGINEER_REPO=https://github.com/lees-repo/qa-engineer-cursor-pack ./qa-engineer-cursor-pack/scripts/install-skills.sh
 ```
 
 ## Using it
@@ -53,9 +53,8 @@ QA_ENGINEER_REPO=https://github.com/YOUR_ORG/qa-engineer-cursor-pack ./qa-engine
 
 ## Share with your team
 
-1. Push this repo to **your** GitHub (fork or copy the folder).
-2. Replace `YOUR_ORG/qa-engineer-cursor-pack` in the commands above with your URL.
-3. Optionally add the repo as a **Remote Rule** in Cursor (Settings → Rules → Add rule → GitHub) if you use Cursor’s remote rules feature.
+1. Canonical repo: [github.com/lees-repo/qa-engineer-cursor-pack](https://github.com/lees-repo/qa-engineer-cursor-pack). Others can fork it and swap `lees-repo` in the install URLs for their fork if needed.
+2. Optionally add the repo as a **Remote Rule** in Cursor (Settings → Rules → Add rule → GitHub) if you use Cursor’s remote rules feature.
 
 ## License
 

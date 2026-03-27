@@ -2,7 +2,7 @@
 # Install QA Engineer rules into the current project's .cursor/rules/
 #
 # One-liner (no clone) — run from your project root:
-# mkdir -p .cursor/rules && curl -sSL -o .cursor/rules/qa-engineer.mdc https://raw.githubusercontent.com/YOUR_ORG/qa-engineer-cursor-pack/main/rules/qa-engineer.mdc
+# mkdir -p .cursor/rules && curl -sSL -o .cursor/rules/qa-engineer.mdc https://raw.githubusercontent.com/lees-repo/qa-engineer-cursor-pack/main/rules/qa-engineer.mdc
 #
 # Or run this script from the pack repo: ./scripts/install-rules.sh
 
@@ -11,7 +11,7 @@ set -e
 RULES_DIR=".cursor/rules"
 RULE_FILE="qa-engineer.mdc"
 
-REPO="${QA_ENGINEER_REPO:-https://github.com/YOUR_ORG/qa-engineer-cursor-pack}"
+REPO="${QA_ENGINEER_REPO:-https://github.com/lees-repo/qa-engineer-cursor-pack}"
 BRANCH="${QA_ENGINEER_BRANCH:-main}"
 GITHUB_HOST="https://github.com"
 RAW_HOST="https://raw.githubusercontent.com"
